@@ -1,0 +1,75 @@
+==Clean Script==
+
+Install-WindowsFeature -Name NET-Framework-Features -IncludeManagementTools
+Install-WindowsFeature -Name NET-Framework-Core -IncludeManagementTools
+Install-WindowsFeature -Name NET-Framework-45-ASPNET -IncludeManagementTools
+Install-WindowsFeature -Name Web-Server -IncludeManagementTools
+Install-WindowsFeature -Name Web-WebServer -IncludeManagementTools
+Install-WindowsFeature -Name Web-Common-Http -IncludeManagementTools
+Install-WindowsFeature -Name Web-Default-Doc -IncludeManagementTools
+Install-WindowsFeature -Name Web-Dir-Browsing -IncludeManagementTools
+Install-WindowsFeature -Name Web-Http-Errors -IncludeManagementTools
+Install-WindowsFeature -Name Web-App-Dev -IncludeManagementTools
+Install-WindowsFeature -Name Web-Net-Ext -IncludeManagementTools
+Install-WindowsFeature -Name Web-Net-Ext45 -IncludeManagementTools
+Install-WindowsFeature -Name Web-ASP -IncludeManagementTools
+Install-WindowsFeature -Name Web-ASP-Net -IncludeManagementTools
+Install-WindowsFeature -Name Web-ASP-Net45 -IncludeManagementTools
+Install-WindowsFeature -Name Web-WebSockets -IncludeManagementTools
+Install-WindowsFeature -Name Web-Lgcy-Mgmt-Console -IncludeManagementTools
+Install-WindowsFeature -Name Telnet-Client -IncludeManagementTools
+Install-WindowsFeature -Name qWave -IncludeManagementTools
+Install-WindowsFeature -Name RSAT-Role-Tools -IncludeManagementTools
+Install-WindowsFeature -Name Server-Media-Foundation -IncludeManagementTools
+Install-WindowsFeature -Name Windows-Identity-Foundation -IncludeManagementTools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.NET
+PowerShell -Command "Install-WindowsFeature -Name NET-Framework-Features -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name NET-Framework-Core -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name NET-Framework-45-ASPNET -IncludeManagementTools"
+ 
+Web Features
+PowerShell -Command "Install-WindowsFeature -Name Web-Server -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-WebServer -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-Common-Http -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-Default-Doc -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-Dir-Browsing -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-Http-Errors -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-App-Dev -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-Net-Ext -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-Net-Ext45 -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-ASP -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-ASP-Net -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-ASP-Net45 -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-WebSockets -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Web-Lgcy-Mgmt-Console -IncludeManagementTools"
+ 
+OTHER
+PowerShell -Command "Install-WindowsFeature -Name Telnet-Client -IncludeManagementTools"
+PowerShell ñCommand ìInstall-WIndowsFeature ñName qWave ñIncludeManagementToolsî
+ 
+SfB
+PowerShell -Command "Install-WindowsFeature -Name RSAT-Role-Tools -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Server-Media-Foundation -IncludeManagementTools"
+PowerShell -Command "Install-WindowsFeature -Name Windows-Identity-Foundation -IncludeManagementTools"
+ 
+
